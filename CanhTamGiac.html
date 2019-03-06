@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canh Tam Giac</title>
+</head>
+<body>
+<script>
+    var a = parseFloat(prompt("nhap so a"));
+    var b = parseFloat(prompt("nhap so b"));
+    var c = parseFloat(prompt("nhap so c"));
+    function dieuKien() {
+        if(a > 0 & b >0 & c > 0)
+        {return true;}
+        return false;
+    }
+    if(a + b > c & b + c > a & a + c > b) {
+        alert("a b c la 3 canh hinh tam giac")
+    }else {alert("a b c ko phai la 3 canh tam giac")}
+</script>
+</body>
+</html>
